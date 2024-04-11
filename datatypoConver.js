@@ -75,7 +75,41 @@ console.log(2==="2");
 
 
 
+fun = function(){
+    console.log("hello world")
+}
 
+const heros =["iron man","saktiman"];
+console.table(heros);
 
+myobj= {
+    name : "shivam",
+    age : 18,
+    myobj : "student",
 
+}
 
+console.log(typeof fun);
+
+const bign=2344n
+console.log(typeof bign);
+
+console.log(typeof myobj);
+
+;let myname="shivam"
+
+let anothername= myname
+anothername="shiva"
+
+console.log(anothername);
+console.log(myname);
+
+let user1={
+    name: "shivam"
+}
+let user2=user1
+
+user2.name="shiva"
+
+console.log(user1);
+console.log(user2);
